@@ -1,0 +1,29 @@
+# Set the Azure Red Hat OpenShift Login Email Here: [Required]
+AZEMAIL="pmagotra@redhat.com"
+
+# Set the Azure Red Hat OpenShift Reguion Name Here: [Required]
+REGION="eastus"
+
+# Set the Azure Red Hat OpenShift Subscription Name Here: [Required]
+SUBSCRIPTION=""
+
+# Set the Azure Red Hat OpenShift Resource Group Name Here: [Required]
+RESOURCEGROUP="pmagotra-rg"
+
+# Set the Azure Red Hat OpenShift Virtual Network Name and Address {IP/NETMASK} Here: [Required]
+VNETNAME="pmagotra-vnet"
+VNETADDR="10.0.0.0/22"
+
+# Set the Azure Red Hat OpenShift Master Subnet Name Here: [Required]
+MASTER_SUBNET_NAME="master-subnet"
+MASTER_SUBNET_ADDR="10.0.0.0/23"
+
+# Set the Azure Red Hat OpenShift Worker Subnet Name Here: [Required]
+WORKER_SUBNET_NAME="worker-subnet"
+WORKER_SUBNET_ADDR="10.0.2.0/23"
+
+# Set the Azure Red Hat OpenShift Cluster Name Here: [Required]
+CLUSTER="pmagotra-aro"
+
+# Set the Azure Red Hat OpenShift Desired Clusterversion Here: [Optional]
+VERSION=""
